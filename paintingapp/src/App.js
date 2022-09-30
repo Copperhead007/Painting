@@ -5,6 +5,7 @@ import { ClearCanvas } from './ClearCanvas';
 function App() {
   return (
     <>
+    <a class="active" href="index.html">GitHub for Documentation and Source Code</a>
       <Canvas/>
       <ClearCanvas/>
     </>
