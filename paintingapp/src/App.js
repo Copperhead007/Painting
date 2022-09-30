@@ -1,12 +1,14 @@
-import React, { useEffect, useRef, useState } from 'react';
-import Canvas from './Canvas'
-import './App.css';
+import React from 'react'
+import { Canvas } from './Canvas'
+import { ClearCanvasButton } from './ClearCanvasButton';
 
 function App() {
   return (
-  <canvas/>
+    <>
+      <Canvas/>
+      <ClearCanvasButton/>
+    </>
   );
 }
 
 export default App;
-
