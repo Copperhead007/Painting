@@ -1,7 +1,7 @@
 import React from 'react'
-import { useCanvas } from './CanvasContext'
+import { useCanvas } from './CanvasCtx'
 
-export const ClearCanvasButton = () => {
+export const ClearCanvas = () => {
   const { clearCanvas } = useCanvas()
 
   return <button onClick={clearCanvas}>Clear</button>
